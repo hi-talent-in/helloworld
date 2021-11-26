@@ -21,6 +21,7 @@ class HelloWorld(Resource):
 		
 		# Default query string set to suraj-sh
 		name = request.args.get('name', 'suraj-sh')
+		print(name)
 		
 		errors = schema.validate(request.args)
 		if errors:
@@ -35,4 +36,4 @@ class HelloWorld(Resource):
 api.add_resource(HelloWorld, '/api/helloworld', endpoint='helloworld')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
