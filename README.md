@@ -17,5 +17,6 @@ simple helloworld program variant to teach different skills, this
 18. Do step 5
 19. Add **database**(mysql, postgres etc) project, store the yourprofilename in dataqbase, show the count just like cache, (dockerrize)
 20. Do step 5
-15. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
-16. host your application into **cloud** (heroku - http://helloradhika.heroku.com/api/helloworld)
+21. CI/CD https://docs.github.com/en/actions/quickstart Use **git action** to host on cloud, or code analysis, quality check
+22. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
+23. host your application into **cloud** (heroku - http://helloradhika.heroku.com/api/helloworld)
