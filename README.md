@@ -11,6 +11,11 @@ simple helloworld program variant to teach different skills, this
 9. Do Step 5
 11. Dockerize your application (https://hub.docker.com/ , https://hub.docker.com/_/hello-world)
 12. Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local
-13. Do step 5
-14. https://kubernetes.io/docs/tutorials/hello-minikube/
-15. host your application into **cloud** (heroku - http://helloradhika.heroku.com/api/helloworld)
+13. Learn Docker-Compose, Required for step 17,19
+14. Do step 5
+17. Add **cache**(eg: redis  etc) project(dockerized), use cache to store the username parameter, and show the count eg: http://localhost/api/helloworld?name=yourprofilename will give "Hello {yourprofilename}({count})" here count will be 1,2,3,4 depending on how many time you call the api, the count can be kept in cache
+18. Do step 5
+19. Add **database**(mysql, postgres etc) project, store the yourprofilename in dataqbase, show the count just like cache, (dockerrize)
+20. Do step 5
+15. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
+16. host your application into **cloud** (heroku - http://helloradhika.heroku.com/api/helloworld)
