@@ -2,7 +2,7 @@
 
 Simple helloworld program variant to teach different basic skills, the intention is to familairize with concepts which are required to be full stack developer
 
-1. Create a github(https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) account (To know more about git https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/1-directory-content-tracking.html)
+1. Create a github account(https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) account (To know more about git https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/1-directory-content-tracking.html)
 2. Do the following https://docs.github.com/en/get-started/quickstart/hello-world
 3. Create a branch from this(https://github.com/krantikaridev/helloworld/) repository named after username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "yourprofilename" as eg in follwing step 
 4. Write helloworld in language of your choice(java(https://www.learnjavaonline.org/en/Hello,_World!),python(https://www.learnpython.org/en/Hello%2C_World%21),c#(https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world),javascript(https://javascript.info/hello-world))
