@@ -1,0 +1,14 @@
+C:\Users\salman\Desktop\WindowsPM\HELLO\bin\Debug\netcoreapp2.1\HELLO.deps.json
+C:\Users\salman\Desktop\WindowsPM\HELLO\bin\Debug\netcoreapp2.1\HELLO.runtimeconfig.json
+C:\Users\salman\Desktop\WindowsPM\HELLO\bin\Debug\netcoreapp2.1\HELLO.runtimeconfig.dev.json
+C:\Users\salman\Desktop\WindowsPM\HELLO\bin\Debug\netcoreapp2.1\HELLO.dll
+C:\Users\salman\Desktop\WindowsPM\HELLO\bin\Debug\netcoreapp2.1\HELLO.pdb
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.csproj.CoreCompileInputs.cache
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.RazorAssemblyInfo.cache
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.RazorAssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.AssemblyInfoInputs.cache
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.AssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.RazorTargetAssemblyInfo.cache
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.dll
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.pdb
+C:\Users\salman\Desktop\WindowsPM\HELLO\obj\Debug\netcoreapp2.1\HELLO.csprojAssemblyReference.cache
