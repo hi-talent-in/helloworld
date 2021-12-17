@@ -1,0 +1,99 @@
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.deps.json
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.json
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.dev.json
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.dll
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.dll
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csprojAssemblyReference.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CoreCompileInputs.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfoInputs.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfo.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.input.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.output.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorCoreGenerate.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cache
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.dll
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CopyComplete
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\web project\ASP.Net CORE\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\NOTICE.TXT
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\NOTICE.TXT
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.deps.json
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.json
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.dev.json
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.dll
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.dll
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csprojAssemblyReference.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CoreCompileInputs.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfoInputs.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfo.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.input.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.output.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorCoreGenerate.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cache
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cs
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.dll
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+C:\Users\salman\Downloads\ExcelToEditCore-basic excel\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CopyComplete
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\NOTICE.TXT
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.deps.json
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.json
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.runtimeconfig.dev.json
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.dll
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.dll
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\bin\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csprojAssemblyReference.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CoreCompileInputs.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorAssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfoInputs.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.AssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.input.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.TagHelpers.output.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorCoreGenerate.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cache
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.RazorTargetAssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.Views.pdb
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.dll
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.pdb
+C:\Users\salman\Desktop\WindowsPM\ExcelToEditCore\ExcelToEditCore\obj\Debug\netcoreapp2.1\ExcelToEditCore.csproj.CopyComplete
