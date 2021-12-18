@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+	font-size: 14px;
+	/*background: url(user_side_login_background.jpg);*/
+	background-color: #F2F3F4;
+	color: #666;
+	font-family: 'Poppins', sans-serif;
+}
+
+.login-container
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+
+.login-form
+{
+	max-width: 100%;
+	width: 800px;
+	padding:15px;
+	margin: auto; 
+}
+.form-control
+{
+	font-size: 15px;
+	min-height: 40px;
+	font-weight: bold;
+}
+.form-control:focus
+{
+	border-color: blue;
+	box-shadow: 0 0 0 .2rem rgba(114,61,190,.25);
+}
+.forgot-link
+{
+	font-size: 13px;
+	
+}
+.forgot-link label
+{
+	margin-bottom: 0;
+}
+strong
+{
+	color: white;
+}
+strong:hover
+{
+	color: #7e909a;
+}
+.forgot-link a
+{
+	color: #313335;
+}
+
+.btn-custom
+{
+	width: 50%;
+	margin-left: 50%;
+	font-weight: bolder;
+	border-color: #723dbe;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:active:focus
+{
+	background-color: black;
+	font-weight: lighter;
+	box-shadow: 0 0 0 .2rem rgba(114,61,190,.25);
+}
+.social-links{
+	widows: 100%;
+	display: flex;
+	flex-direction:column; 
+}
+/*.social-links a
+{
+	text-align: center;
+	color: #cccccc;
+	font-size: 15px;
+	margin: 20px 0px 15px;
+}*/
+.social-links .links-box
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.social-links .links-box a
+{
+	color: white;
+	padding: 8px;
+	width: calc(33.33%, - 15px);
+	font-size: 15px;
+	border-radius: 5px;
+}
+.social-links .links-box a.facebook
+{
+	background-color: #4567ab;
+}
+.social-links .links-box a.twitter
+{
+	background-color: #2fcdfe;
+}
+.social-links .links-box a.google
+{
+	background-color: #dd4234;
+}
+.login-form .btn-social
+{
+	font-size: 20px;
+	color: white;
+	border:0;
+	margin-bottom: 10px;
+}
+.login-form .btn-facebook
+{
+	background-color: #4866a8;
+}
+.login-form .btn-google
+{
+	background-color: #dd4234;
+}
+.login-form .btn-twitter
+{
+	background-color: #2fcdfe;
+}
