@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Enter Your Name: <input type="text" id="myText"><br><br>
+
+<button onclick="myFunction()">Submit</button>
+
+<h1 id="demo"></h1>
+
+<script>
+function myFunction() {
+  var x=document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = 'Hello'+ ' ' +x;
+}
+</script>
+
+</body>
+</html>
