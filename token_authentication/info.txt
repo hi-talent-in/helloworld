@@ -1,0 +1,4 @@
+To generate/get Token:
+python manage.py drf_create_token user_name
+To access the api use:
+http http://127.0.0.1:8000/apistudentapi/ 'Authorization:Token (paste generated token here)71902297a8e*****************32d26e3c0a0'
