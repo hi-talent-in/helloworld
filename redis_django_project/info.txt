@@ -1,0 +1,7 @@
+Prerequisite
+1)Redis server installed.
+2)Redis for django installed.
+
+To run the application:
+1)Create a key value in redis server
+2)Write code in django for accessing it
