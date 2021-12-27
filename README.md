@@ -25,8 +25,9 @@ Simple helloworld program variant to teach different basic skills, the intention
 21. Add **database**(mysql, postgres etc) project, store the yourprofilename in dataqbase, show the count just like cache, (dockerrize)
 22. Do step 5
 23. CI/CD https://docs.github.com/en/actions/quickstart Use **git action** to host Create the docker image whenever there is a change in your branch, also integrate linting, if the app is hosted it should be update git action accordingly
-24. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
-25. host your application into **cloud** (heroku - http://helloradhika.heroku.com/api/helloworld)
-26. Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!
-27. Do Step 5
-28. Create simple HTML page using any of the following javascript, react, angular. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is authenticated request
+25. host your application into **cloud** (use heroku - http://helloradhika.heroku.com/api/helloworld, AWS or Google VM, you can use docker-compose for hosting on VM)
+26. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
+27. Now instead of docker-compose use **Kubernetes** for hosting the application
+28. Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!
+29. Do Step 5
+30. Create simple HTML page using any of the following javascript, react, angular. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is authenticated request
