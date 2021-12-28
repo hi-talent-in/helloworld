@@ -1,0 +1,156 @@
+﻿@model StudentRegistration.WebPortal.Models.StudentRegisterViewModel
+@*@model StudentRegistration.Property.RegisterStudent*@
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>StudentRegistration</h4>
+<hr />
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="UserName" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" placeholder="UserMobileNumber" />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EmailId" class="control-label"></label>
+                <input asp-for="EmailId" class="form-control" placeholder="UserEmailId" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="OrganizationName" class="control-label"></label>
+                <input asp-for="OrganizationName" class="form-control" placeholder="OrganizationName" />
+                <span asp-validation-for="OrganizationName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" placeholder="UserAddress" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                @*<input asp-for="Country" class="form-control" />*@
+
+                @{if (ViewBag.Country != null)
+                    {
+                        <select class="form-control" id="Country" asp-for="Country" asp-items="@(new SelectList(@ViewBag.Country, "CountryId", "CountryName"))">
+                            <option value="" selected disabled>--Select Country--</option>
+                        </select>
+                    }
+                    else
+                    {
+                        <select class="form-control" asp-for="Country">
+                            <option value="" selected disabled>--Select Country--</option>
+                        </select>
+                    }
+                }
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="State" class="control-label"></label>
+                @*<input asp-for="State" class="form-control" />*@
+                <select id="State" class="form-control" asp-for="State">
+                    <option value="" selected disabled>--Select State--</option>
+                </select>
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                @*<input asp-for="City" class="form-control" />*@
+                <select id="City" class="form-control" asp-for="City">
+                    <option value="" selected disabled>--Select City--</option>
+                </select>
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pin" class="control-label"></label>
+                <input asp-for="Pin" class="form-control" placeholder="PinCode" />
+                <span asp-validation-for="Pin" class="text-danger"></span>
+            </div>
+            <p><a id="divothersession1">ShowOtherSession</a></p>
+            <div id="divothersession" style="display:none;">
+                <div class="form-group">
+                    <label asp-for="TypeOfOrganization" class="control-label"></label>
+                    @*<input asp-for="TypeOfOrganization" class="form-control" />*@
+                    <select id="drpEmpList" class="form-control" asp-for="TypeOfOrganization" asp-items="@(new SelectList(@ViewBag.TypeOfOrganization,"OrganizationId", "OrganizationType"))">
+                        <option value="">--Select--</option>
+                    </select>
+                    <span asp-validation-for="TypeOfOrganization" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="OwnerName" class="control-label"></label>
+                    <input asp-for="OwnerName" class="form-control" placeholder="OwnerName" />
+                    <span asp-validation-for="OwnerName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="OwnerContactNo" class="control-label"></label>
+                    <input asp-for="OwnerContactNo" class="form-control" placeholder="OwnerContactNo" />
+                    <span asp-validation-for="OwnerContactNo" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="OwnerEmailId" class="control-label"></label>
+                    <input asp-for="OwnerEmailId" class="form-control" placeholder="OwnerEmailId" />
+                    <span asp-validation-for="OwnerEmailId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="GSTNO" class="control-label"></label>
+                    <input asp-for="GSTNO" class="form-control" placeholder="GSTNO" />
+                    <span asp-validation-for="GSTNO" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Other" class="control-label"></label>
+                    <input asp-for="Other" class="form-control" placeholder="Other" />
+                    <span asp-validation-for="Other" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-success" />
+            </div>
+
+        </form>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+@{
+    if (ViewBag.massage != null)
+    {
+        <script>
+            alert('@ViewBag.massage');
+
+        </script>
+    }
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+<script src="~/js/Dropdownbinding.js"></script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

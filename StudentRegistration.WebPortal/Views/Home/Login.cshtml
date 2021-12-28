@@ -1,0 +1,49 @@
+﻿@model StudentRegistration.WebPortal.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+<hr />
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-md-6">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" placeholder="UserId" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input type="password" asp-for="Password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group checkbox">
+                <label asp-for="RememberMe" class="control-label"></label>
+                <input asp-for="RememberMe" style="margin-left: -107px;" type="checkbox" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-success" />
+            </div>
+        </form>
+        <div>
+            <a asp-action="Index">Click here to Register.</a>
+        </div>
+    </div>
+
+    <div class="col-sm-3"></div>
+</div>
+
+@{
+    if (ViewBag.msg != null)
+    {
+        <div style="color:red">@ViewBag.msg</div>
+    }
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

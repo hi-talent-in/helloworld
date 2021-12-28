@@ -1,0 +1,9 @@
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\bin\Debug\netcoreapp2.1\StudentRegistration.Utility.deps.json
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\bin\Debug\netcoreapp2.1\StudentRegistration.Utility.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\bin\Debug\netcoreapp2.1\StudentRegistration.Utility.pdb
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.csprojAssemblyReference.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.csproj.CoreCompileInputs.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.AssemblyInfoInputs.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.AssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Utility\obj\Debug\netcoreapp2.1\StudentRegistration.Utility.pdb

@@ -1,0 +1,14 @@
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.deps.json
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.pdb
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\StudentRegistration.Property.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\StudentRegistration.Property.pdb
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.csprojAssemblyReference.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.AssemblyInfo.cs
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.csproj.CopyComplete
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.dll
+C:\Users\salman\Desktop\WindowsPM\CoreRegistration\StudentRegistration\StudentRegistration.Infrastructure\obj\Debug\netcoreapp2.1\StudentRegistration.Infrastructure.pdb
