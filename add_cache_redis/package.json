@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.1.0",
+    "redis": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "add_cache_redis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
