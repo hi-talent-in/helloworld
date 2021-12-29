@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LPj2cJpzpYduK2tvZm4iRkGW2UybcsrpyqSn625XN5bmxT4eTdqGn9e+39zs2KOGUBlOZtbzoW1C1nGsXSb53Q==",
+  "dgSpecHash": "TV4wJN2D7f03IsjPowMfEN9eyobjbQSJ7mxtW+lx2BM7Byzeaan2z0C1t42suB6kA63+UUnb634ZMUUFqwHUZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

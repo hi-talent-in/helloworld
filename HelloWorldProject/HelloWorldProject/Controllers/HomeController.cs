@@ -6,12 +6,10 @@ namespace HelloWorldProject.Controllers
     [Route("[controller]")]
     public class HomeController : ControllerBase
     {
-        [HttpGet(Name = "GetString")]
-
-        public String GET()
+        [HttpGet]
+        public string GetName(string Name)
         {
-            return "Hello World";
-
+            return Name == null ? "Hello World" : "Hello" + Name;
         }
     }
 }

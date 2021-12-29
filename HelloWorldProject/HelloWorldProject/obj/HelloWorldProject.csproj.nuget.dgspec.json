@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
         "projectName": "HelloWorldProject",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\HelloWorldProject\\HelloWorldProject\\obj\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
