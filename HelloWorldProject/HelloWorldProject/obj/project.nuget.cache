@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TV4wJN2D7f03IsjPowMfEN9eyobjbQSJ7mxtW+lx2BM7Byzeaan2z0C1t42suB6kA63+UUnb634ZMUUFqwHUZQ==",
+  "dgSpecHash": "T+jT6AN6PTCBIRlaOmc2sHoDuuew66KGpt+uq94e4foAyrP2MJn1dTEeGH3G/7i2MVX4vAE8/L/ma877EF7jxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\myFolder\\helloworld\\HelloWorldProject\\HelloWorldProject\\HelloWorldProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
