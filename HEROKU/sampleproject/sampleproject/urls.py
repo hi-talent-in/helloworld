@@ -21,7 +21,3 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('search/', views.search, name="search" ),
 ]
-
-
-
-
