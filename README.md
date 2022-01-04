@@ -13,21 +13,21 @@ Simple helloworld program variant to teach different basic skills, the intention
 9. Do Step 5 with comment, "Basic hello world through API"
 10. Update the **rest api** to support name as argument (ex:http://localhost/api/helloworld?name=name), if the named argument is null the API should return Hello World! instead other wise it should return "Heloo {name}!"
 11. Do Step 5 with comment "Basic hello world API with parameter name"
-12. Learn about docker your application (https://hub.docker.com/ , https://hub.docker.com/hello-world), create dockerhub account
+12. Learn about docker, (https://hub.docker.com/ , https://hub.docker.com/hello-world), create dockerhub account
 13. Dockerize your application
 14. Do Step 5 with comment "Dockerized"
-15. Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local
+15. Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
 16. Do Step 6
-17. Learn Docker-Compose, Required for step 17,19
+17. Learn Docker-Compose, Required for step 17,19, now your application should be able to run using docker-compose up
 18. Do step 5
 19. Add **cache**(eg: redis  etc) project(dockerized), use cache to store the username parameter, and show the count eg: http://localhost/api/helloworld?name=yourprofilename will give "Hello {yourprofilename}({count})" here count will be 1,2,3,4 depending on how many time you call the api, the count can be kept in cache
 20. Do step 5
 21. Add **database**(mysql, postgres etc) project, store the yourprofilename in dataqbase, show the count just like cache, (dockerrize)
 22. Do step 5
 23. CI/CD https://docs.github.com/en/actions/quickstart Use **git action** to host Create the docker image whenever there is a change in your branch, also integrate linting, if the app is hosted it should be update git action accordingly
-25. host your application into **cloud** (use heroku - http://helloradhika.heroku.com/api/helloworld, AWS or Google VM, you can use docker-compose for hosting on VM)
+25. host your application into **cloud** (use heroku eg: http://helloradhika.heroku.com/api/helloworld, or AWS or Google VM, you can use docker-compose for hosting on VM), on vm u would need dokcer, docker-compose, git installed, then u can clone the repository and simply run docker-compose up
 26. https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
-27. Now instead of docker-compose use **Kubernetes** for hosting the application
-28. Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!
+27. Now instead of docker-compose use **Kubernetes** for hosting the application, this basically is useful for supporting **scaling**
+28. Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!, **security Step**
 29. Do Step 5
 30. Create simple HTML page using any of the following javascript, react, angular. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is authenticated request
