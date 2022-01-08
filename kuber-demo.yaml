@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kuber-demo-deployment
+  labels: 
+    app: kuber-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kuber-demo
+  template:
+    metadata:
+      labels:
+        app: kuber-demo
+    spec:
+      containers:
+      - name: kuber-demo
+        image: anuragt25/kuberdemo3
+        ports:
+        - containerPort: 8080

@@ -1,0 +1,65 @@
+name: Build and Deploy to GKE
+
+on:
+  push:
+    branches:
+      - Anurag-Tandulwadkar
+
+env:
+  PROJECT_ID: ${{secrets.ANURAGT_GKE_PROJECT}}
+  GKE_CLUSTER: github-actions-gke
+  GKE_ZONE: us-central1-c
+  DEPLOYMENT_NAME: kuber-demo-deployment
+  IMAGE: github-actions-gke-image
+  TAG: 1.0.0
+
+jobs:
+  setup-build-publish-deploy:
+    name: Setup Build Publish Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup JDK 1.8
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+          server-id: github
+          settings-path: ${{ github.workspace }}
+
+      - name: Build with Maven
+        run: mvn clean package -DskipTests
+
+      - name: Setup Google Cloud CLI
+        uses: GoogleCloudPlatform/github-actions/setup-gcloud@0.1.3
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+        with:
+          service_account_key: ${{secrets.ANURAGT_GKE_SA_KEY}}
+          project_id: ${{secrets.ANURAGT_GKE_PROJECT}}
+
+      - name: Configure Docker
+        run: |-
+          gcloud --quiet auth configure-docker
+      - name: Get GKE Credentials
+        run: |-
+          gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
+      - name: Build Docker Image
+        run: |-
+          docker build --tag "gcr.io/$PROJECT_ID/$IMAGE:$TAG" .
+      - name: Publish Docker Image to GCR
+        run: |-
+          docker push "gcr.io/$PROJECT_ID/$IMAGE:$TAG"
+      - name: Set up Kustomize
+        run: |-
+          curl -sfLo kustomize https://github.com/kubernetes-sigs/kustomize/releases/download/v3.1.0/kustomize_3.1.0_linux_amd64
+          chmod u+x ./kustomize
+      - name: Deploy Image to GKE cluster
+        run: |-
+          ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$TAG
+          ./kustomize build . | kubectl apply -f -
+          kubectl rollout status deployment/$DEPLOYMENT_NAME
+          kubectl get services -o wide
