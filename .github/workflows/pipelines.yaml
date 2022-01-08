@@ -31,7 +31,7 @@ jobs:
           settings-path: ${{ github.workspace }}
 
       - name: Build with Maven
-        run: mvnw clean package -DskipTests
+        run: mvn clean package
 
       - name: Setup Google Cloud CLI
         uses: GoogleCloudPlatform/github-actions/setup-gcloud@0.1.3
