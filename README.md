@@ -11,7 +11,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 8. Do Step 5 with comment, "Basic hello world in {language:python, java, javascript, c# etc}" 
 9. Expose the hellowolrd through **rest API**(eg: http://localhost/api/helloworld), Create a get API method which returns "Hello World!"
 10. Do Step 5 with comment, "Basic hello world through API"
-12. Learn about **docker**, (https://hub.docker.com/ , https://hub.docker.com/hello-world), create dockerhub account
+12. Learn about **docker** (https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry , https://hub.docker.com/ , https://hub.docker.com/hello-world), create dockerhub account
 13. Dockerize your application
 14. Do Step 5 with comment "Dockerized"
 15. Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
