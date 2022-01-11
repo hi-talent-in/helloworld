@@ -46,7 +46,7 @@ jobs:
           gcloud --quiet auth configure-docker
       - name: Get GKE Credentials
         run: |-
-          gcloud auth activate-service-account gke-system-1@heroic-command-337311.iam.gserviceaccount.com --key-file=credentials.json
+          gcloud auth activate-service-account gke-system-1@heroic-command-337311.iam.gserviceaccount.com
           gcloud config set project ${{secrets.ANURAGT_GKE_PROJECT}}
           gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
       - name: Build Docker Image
