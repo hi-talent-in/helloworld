@@ -7,7 +7,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 3. Clone this repository on your local
 4. Create a branch from this(https://github.com/krantikaridev/helloworld/) repository named after username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "yourprofilename" as eg in follwing step 
 5. Push this branch with comment "Branch {branchname} created", you should be able to see the same at https://github.com/krantikaridev/helloworld/branches
-6. Write helloworld in language of your choice(java(https://www.learnjavaonline.org/en/Hello,_World!),python(https://www.learnpython.org/en/Hello%2C_World%21),c#(https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world),javascript(https://javascript.info/hello-world))
+6. Write helloworld in language of your choice(java (https://www.learnjavaonline.org/en/Hello,_World!), python(https://www.learnpython.org/en/Hello%2C_World%21),c#(https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world), javascript(https://javascript.info/hello-world))
 7. Do Step 5 with comment, "Basic hello world in {language:python,java etc}" 
 8. Expose the hellowolrd through rest API(eg: http://localhost/api/helloworld), Create a get API method which returns "Hello World!"
 9. Do Step 5 with comment, "Basic hello world through API"
