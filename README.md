@@ -18,6 +18,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 
 ### Rest Api
 * Expose the hellowolrd through **rest API**(eg: http://localhost/api/helloworld), Create a get API method which returns "Hello World!"
+  * [Javascript](https://nodejs.org/en/docs/guides/getting-started-guide/)
 * Push your changes with comment, "Basic hello world through API"
 * Update the **rest api** to support name as **argument** (ex:http://localhost/api/helloworld?name=name), if the named argument is null the API should return Hello World! instead other wise it should return "Heloo {name}!"
 * Do Step 5 with comment "Basic hello world API with parameter name"
