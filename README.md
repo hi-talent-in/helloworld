@@ -26,7 +26,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 ### Docker
 * create dockerhub account
 * Learn about **docker** (https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry , https://hub.docker.com/ , https://hub.docker.com/hello-world), 
-* Dockerize your application
+* Dockerize your application (your application should be able to run using docker instead of traditional approach)
 * Push your changes with comment, "Dockerized"
 * Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
 
@@ -50,13 +50,15 @@ Simple helloworld program variant to teach different basic skills, the intention
 ## VM
 * host your application into **cloud** (use heroku eg: http://helloradhika.heroku.com/api/helloworld, or AWS or Google VM, you can use docker-compose for hosting on VM), on vm u would need dokcer, docker-compose, git installed, then u can clone the repository and simply run docker-compose up
 ## Kubernetes
-* https://kubernetes.io/docs/tutorials/hello-minikube/  containerized applications
+* learn about kubernetes
+  * https://kubernetes.io/docs/tutorials/hello-minikube
+  * https://docs.microsoft.com/en-us/learn/modules/intro-to-kubernetes/ 
 * Now instead of docker-compose use **Kubernetes** for hosting the application, this basically is useful for supporting **scaling**
 * Update **CI/CD** so that your changes are updated on the hosting automatically (eg: http://helloradhika.heroku.com/api/helloworld)
 * Do step 5, **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
 
 ### Security
-* **Security**: Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!, **security Step**, as an additional step one can provide login/signup using google oauth (https://oauth.net/)
+* Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!, **security Step**, as an additional step one can provide login/signup using google oauth (https://oauth.net/)
 * Do Step 5, **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
 
 ### Front End
