@@ -1,7 +1,7 @@
 Simple helloworld program variant to teach different basic skills, the intention is to familairize with concepts which are required to be a full stack developer
 
 ### Git
-
+//
 1. Create a [github account](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) ,
 2. If you are not familiar with github do the following
    * https://jwiegley.github.io/git-from-the-bottom-up/1-Repository/1-directory-content-tracking.html
