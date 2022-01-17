@@ -53,6 +53,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 * learn about kubernetes
   * https://kubernetes.io/docs/tutorials/hello-minikube
   * https://docs.microsoft.com/en-us/learn/modules/intro-to-kubernetes/ 
+  * https://minikube.sigs.k8s.io/docs/start/
 * Now instead of docker-compose use **Kubernetes** for hosting the application, this basically is useful for supporting **scaling**
 * Update **CI/CD** so that your changes are updated on the hosting automatically (eg: http://helloradhika.heroku.com/api/helloworld)
 * Do step 5, **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
