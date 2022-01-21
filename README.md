@@ -47,7 +47,11 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Push your changes with comment, "Introduced Cache"
 
 ### CI/CD
-* CI/CD https://docs.github.com/en/actions/quickstart Use **git action** to host Create the docker image whenever there is a change in your branch, also integrate linting, if the app is hosted it should be update git action accordingly
+* Learn about [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+* Lear about [Git Action](https://docs.github.com/en/actions/quickstart)
+* Use **git action** to create the docker image of API project whenever there is a change in your branch,
+* Use **git action** to integrate linting
+* If the app is hosted(After the Cloud Step(Kubernetes) is done), git action needs to be update so that any changes in repository update the hosted app automatically
 
 ### Cloud
 ## VM
