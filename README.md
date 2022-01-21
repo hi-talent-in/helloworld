@@ -24,8 +24,11 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Do Step 5 with comment "Basic hello world API with parameter name"
 
 ### Docker
-* create dockerhub account
-* Learn about **docker** (https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry , https://hub.docker.com/ , https://hub.docker.com/hello-world), 
+* create dockerhub account https://hub.docker.com/
+* Learn about **docker** 
+  * https://hub.docker.com/hello-world
+  * https://youtu.be/Gw2Jrid4SaQ
+  * https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry 
 * Dockerize your application (your application should be able to run using docker instead of traditional approach)
 * Push your changes with comment, "Dockerized"
 * Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
