@@ -64,3 +64,12 @@ Simple helloworld program variant to teach different basic skills, the intention
 ### Front End
 * Create simple HTML page using any of the following **javascript**, **react**, **angular**. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is **authenticated** request,for passing the authentication token you should use cokkies or local stogrege of broser, so presence of this token and absense of it will determine whether one is authenticated or not. once this step is done you should see the same at eg:http://helloradhika.heroku.com at the same time api can be accessed at http://helloradhika.heroku.com/api/helloworld, this should be seen as seperate project it's just using the API in the backend, if u have done 31 it should be esiaer to use google outh so you can skip the cookie part
 * Do Step 5, CI/CD should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld, CI/CD should be able to update the hosted app eg: eg: http://helloradhika.heroku.com might have to update the CI/CD pipeline
+
+
+### Misc Learning material link
+* https://towardsdatascience.com/top-11-github-repositories-to-learn-python-e75e8676757a
+* https://github.com/practical-tutorials/project-based-learning
+* https://learnjavascript.online/
+* https://github.com/Ada-Developers-Academy/ada-build
+* https://github.com/Ada-Developers-Academy/textbook-curriculum
+* https://github.com/kay-is/react-from-zero
