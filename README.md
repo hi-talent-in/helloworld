@@ -24,8 +24,11 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Do Step 5 with comment "Basic hello world API with parameter name"
 
 ### Docker
-* create dockerhub account
-* Learn about **docker** (https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry , https://hub.docker.com/ , https://hub.docker.com/hello-world), 
+* create dockerhub account https://hub.docker.com/
+* Learn about **docker** 
+  * https://hub.docker.com/hello-world
+  * https://youtu.be/Gw2Jrid4SaQ
+  * https://www.youtube.com/watch?v=Gw2Jrid4SaQ&list=WL&index=11&ab_channel=CodeWithHarry 
 * Dockerize your application (your application should be able to run using docker instead of traditional approach)
 * Push your changes with comment, "Dockerized"
 * Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
@@ -44,7 +47,11 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Push your changes with comment, "Introduced Cache"
 
 ### CI/CD
-* CI/CD https://docs.github.com/en/actions/quickstart Use **git action** to host Create the docker image whenever there is a change in your branch, also integrate linting, if the app is hosted it should be update git action accordingly
+* Learn about [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
+* Lear about [Git Action](https://docs.github.com/en/actions/quickstart)
+* Use **git action** to create the docker image of API project whenever there is a change in your branch,
+* Use **git action** to integrate linting
+* If the app is hosted(After the Cloud Step(Kubernetes) is done), git action needs to be update so that any changes in repository update the hosted app automatically
 
 ### Cloud
 ## VM
@@ -53,6 +60,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 * learn about kubernetes
   * https://kubernetes.io/docs/tutorials/hello-minikube
   * https://docs.microsoft.com/en-us/learn/modules/intro-to-kubernetes/ 
+  * https://minikube.sigs.k8s.io/docs/start/
 * Now instead of docker-compose use **Kubernetes** for hosting the application, this basically is useful for supporting **scaling**
 * Update **CI/CD** so that your changes are updated on the hosting automatically (eg: http://helloradhika.heroku.com/api/helloworld)
 * Do step 5, **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
