@@ -18,8 +18,6 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Write helloworld in language of your choice [java](https://www.learnjavaonline.org/en/Hello,_World!), [python](https://www.learnpython.org/en/Hello%2C_World%21), [c#] (https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world),[javascript](https://javascript.info/hello-world)
 * Push your changes with comment, "Basic hello world in {$language:python, java, javascript, c# etc}" 
 
-
-
 ## Level 2
 ### Rest Api
 * Expose the hellowolrd through **[rest API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)**(eg: http://localhost/api/helloworld), Create a get API method which returns "Hello World!"
@@ -45,7 +43,7 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Create **Docker** Image(yourprofilename_helloworld) and use and run the same on local, u should be able to run it through eg: docker run -d -p kali-linux kalilinux/kali-rolling:latest
 
 
-## Level 4
+## Level 5
 ### Docker-Compose
 * Learn **(Docker-Compose)[https://docs.docker.com/compose/gettingstarted/]**
 * Use docker compose in helloworld, your application should be able to run using docker-compose up
@@ -53,13 +51,13 @@ Simple helloworld program variant to teach different basic skills, the intention
 ### Database
 * Add **database**(mysql, postgres etc) project, store the yourprofilename in dataqbase, show the count just like cache, (dockerrize)
 
-## Level 5
-
-
 ### Cache
 * learn about (cache)[https://redis.io/topics/introduction]
 * Add **cache**(eg: redis etc) project(dockerized), use cache to store the username parameter, and show the count eg: http://localhost/api/helloworld?name=yourprofilename will give "Hello {yourprofilename}({count})" here count will be 1,2,3,4 depending on how many time you call the api, the count can be kept in cache, if the profilename is not in cache, you should use database to view the count and update your cache so that next time the entry is found in cache
 * Push your changes with comment, "Introduced Cache"
+
+
+## Level 8
 
 ### CI/CD
 * Learn about [CI/CD](https://www.redhat.com/en/topics/devops/what-is-ci-cd)
@@ -68,8 +66,6 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Use **git action** to integrate linting
 * If the app is hosted (After the Cloud Step(Kubernetes) is done), git action needs to be update so that any changes in repository update the hosted app automatically
 
-## Level 6
-
 ### Cloud using VM
 * host your application into **cloud** (use heroku eg: http://helloradhika.heroku.com/api/helloworld, or AWS or Google VM, you can use docker-compose for hosting on VM), on vm u would need dokcer, docker-compose, git installed, then u can clone the repository and simply run docker-compose up
 
@@ -77,11 +73,12 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Create simple HTML page using any of the following **javascript**, **react**, **angular**. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is **authenticated** request,for passing the authentication token you should use cokkies or local stogrege of broser, so presence of this token and absense of it will determine whether one is authenticated or not. once this step is done you should see the same at eg:http://helloradhika.heroku.com at the same time api can be accessed at http://helloradhika.heroku.com/api/helloworld, this should be seen as seperate project it's just using the API in the backend, if u have done 31 it should be esiaer to use google outh so you can skip the cookie part
 * Do Step 5, CI/CD should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld, CI/CD should be able to update the hosted app eg: eg: http://helloradhika.heroku.com might have to update the CI/CD pipeline
 
-## Level 7
 
 ### Security
 * Add authentication layer (Token Based, https://auth0.com/learn/token-based-authentication-made-easy/, https://blog.restcase.com/4-most-used-rest-api-authentication-methods/ try at least two), if the user is authenticated, everything should be in capital instead of small, eg: HELLO WORLD!, **security Step**, as an additional step one can provide login/signup using google oauth (https://oauth.net/)
 * Do Step 5, **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
+
+## Level 13
 
 ### Kubernetes
 * learn about kubernetes
@@ -91,6 +88,10 @@ Simple helloworld program variant to teach different basic skills, the intention
 * Now instead of docker-compose use **Kubernetes** for hosting the application, this basically is useful for supporting **scaling**
 * Update **CI/CD** so that your changes are updated on the hosting automatically (eg: http://helloradhika.heroku.com/api/helloworld)
 * **CI/CD** should be able to update the hosted app eg: eg: http://helloradhika.heroku.com/api/helloworld
+
+## Level 21
+
+You should be contributing towards a live open source project, you are applying for job actively, it's a matter of time that you get an offer.
 
 ### Misc Learning material link
 * https://towardsdatascience.com/top-11-github-repositories-to-learn-python-e75e8676757a
