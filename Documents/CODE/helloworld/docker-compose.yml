@@ -1,0 +1,8 @@
+
+version: '3'
+services:
+  web:
+    build: .
+    image: iliyas01/iliyas01-helloworld
+  database:
+    image: redis
