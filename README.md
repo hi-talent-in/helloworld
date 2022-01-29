@@ -1,4 +1,4 @@
-Simple helloworld program variant to teach different basic skills, the intention is to familairize with concepts which are required to be a full stack developer
+Simple helloworld program variant to introduce various technology, the intention is to familairize with concepts which are required to be a full stack developer.
 
 ## Level 1
 
@@ -10,9 +10,10 @@ Simple helloworld program variant to teach different basic skills, the intention
    * https://docs.microsoft.com/en-us/learn/modules/introduction-to-github/ it is recommended that you create a account so that your progress is public eg:https://docs.microsoft.com/en-us/users/krantikaridev/
    * https://docs.github.com/en/get-started/quickstart/hello-world
 3. Share your git profile with us(eg:https://github.com/krantikaridev) on [Slack](https://app.slack.com/client/T02K0N59X5Z/C02T61E6RUG), we will add you to this repository 
-4. Clone this repository on your local system
-5. Create a branch from this [repository](https://github.com/krantikaridev/helloworld/), the branch should be named after your git username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "$yourprofilename" as eg in follwing steps 
-6. Push this branch with comment "Branch {$yourprofilename} created"
+4. Accept the repository invite, which you will recive on your github email
+5. Clone this repository on your local system
+6. Create a branch from this [repository](https://github.com/krantikaridev/helloworld/), the branch should be named after your git username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "$yourprofilename" as eg in follwing steps 
+7. Push this branch with comment "Branch {$yourprofilename} created"
 
 ### Getting Familiar with Language
 * Write helloworld in language of your choice [java](https://www.learnjavaonline.org/en/Hello,_World!), [python](https://www.learnpython.org/en/Hello%2C_World%21), [c#] (https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world),[javascript](https://javascript.info/hello-world)
