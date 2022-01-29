@@ -24,7 +24,7 @@ Simple helloworld program variant to introduce various technology, the intention
 * Expose the hellowolrd through **[rest API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)**(eg: http://localhost/api/helloworld), Create a get API method which returns "Hello World!"
   * [Javascript](https://nodejs.org/en/docs/guides/getting-started-guide/)
 * Push your changes with comment, "Basic hello world through API"
-* use (ngrok)[https://www.sitepoint.com/use-ngrok-test-local-site/] to expose your api
+* use [ngrok](https://www.sitepoint.com/use-ngrok-test-local-site/) to expose your api
 * Share your ngrok url over (slack)[https://app.slack.com/client/T02K0N59X5Z/C02T61E6RUG] let one of your perr verify the output, or open browser in incognito mode and verify the output
 
 ## Level 3
