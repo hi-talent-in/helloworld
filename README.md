@@ -16,7 +16,11 @@ Simple helloworld program variant to introduce various technology, the intention
 7. Push this branch with comment "Branch {$yourprofilename} created"
 
 ### Getting Familiar with Language
-* Write helloworld in language of your choice [java](https://www.learnjavaonline.org/en/Hello,_World!), [python](https://www.learnpython.org/en/Hello%2C_World%21), [c#] (https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world),[javascript](https://javascript.info/hello-world)
+* Write helloworld in language of your choice 
+  * [https://www.learnjavaonline.org/en/Hello,_World!](java)
+  * [https://www.learnpython.org/en/Hello%2C_World%21](python)
+  * [https://docs.microsoft.com/en-us/learn/modules/csharp-write-first/](C#),
+  * [https://javascript.info/hello-world](javascript)
 * Push your changes with comment, "Basic hello world in {$language:python, java, javascript, c# etc}" 
 
 ## Level 2
