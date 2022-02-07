@@ -1,0 +1,43 @@
+Variables are containers for storing data values.
+
+Creating Variables:
+A variable is created the moment you first assign a value to it
+
+x = 5
+y = "John"
+print(x)
+print(y)
+
+
+Variable Names
+Rules for Python variables:
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+
+Python allows you to assign values to multiple variables in one line:
+
+x, y, z = "Orange", "Banana", "Cherry"
+
+
+Output Variables::
+
+The Python print statement is often used to output variables
+To combine both text and a variable, Python uses the + character:
+
+x = "awesome"
+print("Python is " + x)
+
+
+Global Variables:
+Variables that are created outside of a function are known as global variables.
+Global variables can be used by everyone, both inside of functions and outside.
+
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()

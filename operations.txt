@@ -1,0 +1,60 @@
+OPERATIONS in python:
+
+Assignment Operator
+The assignment operator takes the value or an expression from right and assigns it to a variable on the left.
+
+
+Arithmetic Operator:
+
+Operator               Meaning                          Example
+--------------------------------------------------------------------
+  +           Add two operands or unary plus            x + y+ 2  
+---------------------------------------------------------------------
+  -           Subtract right operand from the left      x - y- 2
+              or unary minus
+----------------------------------------------------------------------
+  *           Multiply two operands                     x * y
+----------------------------------------------------------------------
+  /           Divide left operand by the right one      x / y
+              (always results into float)
+--------------------------------------------------------------------------------
+  %           Modulus - remainder of the division of    x % y (remainder of x/y)
+              left operand by the right
+--------------------------------------------------------------------------------
+  //          Floor division - division that results    x // y
+              into whole number adjusted to the left 
+              in the number line
+----------------------------------------------------------------------------------
+ **           Exponent - left operand raised to the     x**y (x to the power y)
+              power of right
+-----------------------------------------------------------------------------------
+
+
+BITWISE Operator:
+
+Bitwise operator works on binary number arithmetic.
+Let x = 10 (0000 1010 in binary) and y = 4 (0000 0100 in binary)
+
+
+Operator               Meaning                          Example
+---------------------------------------------------------------------------
+  &                  Bitwise AND                     x & y = 0 (0000 0000)  
+---------------------------------------------------------------------------
+  |                  Bitwise OR                      x | y = 14 (0000 1110)
+----------------------------------------------------------------------------
+  ~                  Bitwise NOT                     ~x = -11 (1111 0101)
+-----------------------------------------------------------------------------
+  ^                  Bitwise XOR                      x ^ y = 14 (0000 1110)
+------------------------------------------------------------------------------
+  >>                 Bitwise right shift              x >> 2 = 2 (0000 0010)
+------------------------------------------------------------------------------
+  <<                 Bitwise left shift               x << 2 = 40 (0010 1000)
+-------------------------------------------------------------------------------
+
+
+COMPARISION Operator:
+
+
+ 
+
+

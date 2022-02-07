@@ -1,0 +1,197 @@
+Built-in Data Types:
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+
+for find data type just type ()
+x = 5
+print(type(x))
+
+
+Numbers:
+Numeric data types are needed when you want to perform arithmetic operations like addition or multiplication on variables
+a=10
+print(a+2) #print l2
+
+1 Integers:
+Integers are whole numbers that can be positive, negative, or 0.
+An integer is many times called an int
+
+a=-10    # negative integer print -10
+print(a)
+res=a*a  #positive integer prints 10
+print(res)
+
+
+2 Float:
+A float is a number with a decimal point.  
+pi=3.14
+print(pi)  #print 3.14
+
+
+3 Complex Numbers:
+Complex numbers are specified as <real part> + <imaginary part> j.
+Complex numbers are used for electrical signal processing, almost all of electrical appliances rely heavily on complex number calculations.
+c=2+3j
+print(c) #prints 2+3j
+
+Strings:
+A string is a sequence of one or more characters (letters, numbers, symbols)
+Strings exist within either single quotes ' or double quotes " or even triple quotes  ‘ ‘ ‘
+Strings are not understood by python, it is a message to the user in the user’s local language like Hindi, Marathi, Gujrathi.
+
+c=2+3j
+print(c)  #prints 2+3j
+msg='Hello World'
+print(msg)  #hello world
+
+fname="Anamika"
+lname="Upadhyay"
+full=fname+lname
+print("My Name is ",full) #My Name is AnamikaUpadhyay
+
+Lists:
+A list refers to a collection of elements
+The elements of a list do not all have to be of the same data type.
+A list is an ordered sequence of data.
+
+1 Creating a list:
+mylist1=[2,-3,0,4,-1]
+mylist2=[10,"Java","Python",68.7]
+
+An alternative way to create a list from another sequence is using the list function.
+mylist3=list("python")
+#['p','y','t','h','o','n']
+
+ Accessing elements of a list
+a.ACCESSING POSITIVE INDEX
+----------------------------------
+python |      R     |    SQL     |
+------ |------------| -----------|
+  0    |     1      |     2      |
+----------------------------------
+Lists are indexed by positive integers, starting with zero.
+Use the indexing operator  [ ] (square brackets) to access or update individual items of the list:
+
+a.ACCESSING NEGATIVE INDEX:
+
+----------------------------------
+python |      R     |    SQL     |
+------ |------------| -----------|
+ -3    |    -2      |    -1      |
+----------------------------------
+Lists are indexed by negative integers, starting with zero.
+Use the indexing operator  [ ] (square brackets) to access or update individual items of the list:
+
+USING A RANGE:
+Use the indexing operator  [start: stop : step] we can get the sublist of the list.
+If the start is not specified it defaults to 0, if the stop is unspecified it defaults to the length of the list and if step defaults to 1.
+The reverse of the list is thus simply possible using [::-1]
+
+ADDING ELEMENTS TO A LIST:
+To append new items to the end of a list, use the append() method:
+ds.append(‘Tableau’)
+To insert an item in the middle of a list, use the insert() method:    
+ds.insert( 0, ‘SAS’ )
+To extend a list with elements from other list use extend():   
+ds.extend([‘Big Data’ , ‘Deep Learning’])
+Use the plus (+) operator to concatenate lists
+
+SORTING THE LIST:
+Sorting a list with sorted() returns a new list
+sort() is a method / operation on a list which sorts the list inplace.
+
+REVERSING THE LIST:
+We can reverse the list with reverse() method in-place.
+We can also use the range [::-1] which returns a new reversed list.
+
+COPYING THE LIST:
+A shallow copying a list can be created with the copy() method.
+
+
+LIST COMPREHENSION:
+h_letters=[letter for letter in 'human']
+print(h_letters)
+
+TUPLE:
+A tuple is a frozen list i.e tuple cannot be modified once it is created.
+A tuple is declared with round parentheses ()
+As tuple are immutable, iterating through tuple is faster than with list
+						
+1 Tuple Packing and Unpacking:
+A tuple can be created without any parenthesis, similarly it can also be extracted
+
+2 Tuple Nesting:
+A tuple can contain another tuple or a list.
+
+3 Creating an empty tuple:
+T=() or
+T=tuple()
+
+Creating a tuple with one element:
+char1=("a")
+print(char1) #o/p a tuple with one element in it ('a',)
+
+
+SETS:
+A set is a list with unique elements.
+A set is itself mutable however it can contain only immutable elements 9i.e elements which cannot be changed later (for hash purpose).
+The location of the element in a set is unordered which means they are placed randomly at any position and hence cannot be indexed with [n] syntax.
+
+ Creating a Set:
+To create a set use the curly brackets and place the elements separated by comma.
+Note: To create an empty use, leaving the empty parentheses will create a dictionary, instead use the set function.
+
+
+ Adding an Element:
+To add an element in a set use the add or update method.
+
+ Removing element from a set:
+Since a set is unordered it doesn’t support indexing, hence we cannot remove any element from its position like a set.
+The remove(elem) or discard(elem) method is used to remove a particular value. They differ only when the element is not found: in the case of remove it throws ValueError while discard doesn’t give any error.
+The pop() method in set doesn’t accept any index in a set and arbitrarily removes any element from the set. 
+
+
+Frozenset:
+These are like sets except that they cannot be changed, i.e. they are immutable.
+A Frozenset() takes an iterable object as input and returns them as immutable. These sets are inbuilt functions of python which freezes the iterable objects and makes them immutable.
+
+
+#tuple of vowels
+vowels=('a','e','i','o','u')
+fset=frozenset(vowels)
+print('frozen set',fset)
+print('empty frozen set ',frozenset())
+
+#froZensets are immutable
+fset.add('v')
+
+
+DICTIONARY:
+Python dictionary is a collection of key value pairs.
+The keys  of the dictionary are unique while the value may be duplicated.
+If the key is known then its value can be easily retrieved.
+Dictionary works like a list where the indexes are user defined
+
+ Creating a dictionary:
+To create a dictionary use the curly brackets and place the key separated from the value with a colon.
+d1={'a':'apple','b':'ball','c':'cat'}
+d2={1:'one',2:'two',3:'three'}
+
+
+ Accessing the elements of the dictionary:
+To access the elements of the dictionary use the index or retrieve the element using the get() method
+
+Adding and Updating the elements of the dictionary:
+To add or update the elements of the dictionary use the index.
+
+
+Removing the elements of the dictionary
+To remove the elements of the dictionary use the index.
+
+Retrieving Keys and Values
+We can retrieve a collection of keys / values from the dictionary using the key() and the values() method.
