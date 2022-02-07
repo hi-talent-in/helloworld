@@ -4,4 +4,4 @@ WORKDIR /app/
 ADD . /app/
 EXPOSE 5000
 RUN pip install -r requirements.txt
-CMD ["python", "/app/app.py"]
+CMD gunicorn app:app --bind 0.0.0.0:$PORT --reload
