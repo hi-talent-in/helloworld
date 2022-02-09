@@ -11,9 +11,10 @@ Simple helloworld program variant to introduce various technology, the intention
    * https://docs.github.com/en/get-started/quickstart/hello-world
 3. Share your git profile with us(eg:https://github.com/krantikaridev) on [Slack](https://app.slack.com/client/T02K0N59X5Z/C02T61E6RUG), we will add you to this repository 
 4. Accept the repository invite, which you will recive on your github email
-5. Clone this repository on your local system
-6. Create a branch from this [repository](https://github.com/krantikaridev/helloworld/), the branch should be named after your git username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "$yourprofilename" as eg in follwing steps 
-7. Push this branch with comment "Branch {$yourprofilename} created"
+4. At this point you should be able to create a repository, clone a preository, checkout a branch, create a new branch, commit changes to a specific branch, pushing these changes to a given branch
+7. Clone this repository on your local system
+8. Create a branch from this [repository](https://github.com/krantikaridev/helloworld/), the branch should be named after your git username(see your git profile, mine is https://github.com/krantikaridev so my username is krantikaridev) we will use "$yourprofilename" as eg in follwing steps 
+9.  Push this branch with comment "Branch {$yourprofilename} created"
 
 ### Getting Familiar with Language
 * Write helloworld in language of your choice 
