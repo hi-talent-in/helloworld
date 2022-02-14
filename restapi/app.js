@@ -11,11 +11,9 @@ app.get('/',(req,res)=>{
         res.send(`<h1>Hello ${name}!</h1>`)
     }
      res.send(`Hello World!`);
-    //  console.log("In app");
-
+     console.log("In app");
 })
 
 app.listen(port, ()=>{
     console.log(`App started succesfully at port ${port}`);
 })
-
