@@ -1,0 +1,9 @@
+docker ps
+docker images
+docker build -t <image-name> .
+docker stop <container_id>
+docker container exec -it <container-image-name> bash
+docker run -p 3306:3306 --name nodejs-mysql -e MYSQL_ROOT_PASSWORD=dbpass -e MYSQL_DATABASE=entry_dtb -d mysql:5.7
+docker run -d -p 8080:8080 <docker-image>
+docker rmi <your-image-id>
+docker rmi -f <your-image-id>

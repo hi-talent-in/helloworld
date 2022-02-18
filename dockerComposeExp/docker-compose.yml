@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - mysql_server
+    
+  mysql_server:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=entry_dtb
+      - MYSQL_USER=abhi
+      - MYSQL_PASSWORD=dbpass
+      - MYSQL_ROOT_PASSWORD=dbpass
