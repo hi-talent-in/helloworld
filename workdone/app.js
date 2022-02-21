@@ -5,6 +5,7 @@ const port = 3000;
 
 app.get('/', (req, res)=>{
     let name = req.query['name'];
+    console.log("work with docker-compose");
     if(name) {
         res.send("Heloo " + name + "!");
         console.log("parameter name: " + name + " entered.");
