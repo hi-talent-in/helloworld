@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 33%;
+    border: solid white;
+    border-radius: 50%;
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+    width: 50%;
+     /* background-color: black ;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+        list-style: none;
+       padding: 26px 30px;
+}
+.nav-list li a{
+        text-decoration: none;
+        color: white;
+}
+.nav-list li a:hover{
+    color: cadetblue;
+}
+.rightNav{
+    /* background-color: black;  */
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+#Search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid blue;
+    border-radius: 9px;
+}
+.background{
+background: rgba(0, 0, 0, 0.7) url('../imgs/bgimg.jpg'); 
+background-size: cover;
+background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secondhalf{
+    width: 30%;
+    
+}
+.secondhalf img{
+    width: 70%;
+    border-radius: 150%; 
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+} 
+.text-big{
+    font-size: 30px;
+}
+.text-small{
+        font-size: 18px;
+}
+.btn{
+    padding: 18px 20px;
+    margin: 8px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    /* font-size: 18px; */
+    color: white;
+    cursor: pointer;
+    background: none;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 80% ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section.left{
+     height: 500px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: space-evenly; 
+     margin: auto;
+     max-width: 80% ; 
+    flex-direction: row-reverse;
+
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 80% ;
+}
+.paras{
+    padding: 0px 65px; 
+}
+.thumnail img{
+    width: 250px;
+}
