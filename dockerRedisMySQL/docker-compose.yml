@@ -1,0 +1,22 @@
+# version of docker-compose
+version: '3.3'
+# 'services' are equivalent to 'containers'
+services:
+  test-redis:
+    # Use Docker Hub base image 'redis:alpine' 
+    image: 'redis:alpine'
+  mysql_server:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=entry_dtb
+      - MYSQL_USER=abhi
+      - MYSQL_PASSWORD=dbpass
+      - MYSQL_ROOT_PASSWORD=dbpass
+  test-webapp:
+    restart: on-failure
+    build: .
+    # Specify an array of ports to map
+    ports:
+      - 3000:3000
+    depends_on:
+      - mysql_server

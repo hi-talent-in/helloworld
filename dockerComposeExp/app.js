@@ -4,19 +4,19 @@ const app = express();
 
 require('dotenv').config();
 
-// const database = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: 'password',
-//     database: 'entry_dtb'
-// });
-
 const database = mysql.createConnection({
-    host: 'mysql_server',
-    user: 'abhi',
-    password: 'dbpass',
+    host: 'localhost',
+    user: 'root',
+    password: 'password',
     database: 'entry_dtb'
 });
+
+// const database = mysql.createConnection({
+//     host: 'mysql_server',
+//     user: 'abhi',
+//     password: 'dbpass',
+//     database: 'entry_dtb'
+// });
 
 app.get('/',(req,res)=>{
     let name = req.query['name'];
@@ -37,7 +37,7 @@ app.get('/',(req,res)=>{
         
         database.query(checkQuery,[name], (err, result)=>{
             if(err) throw err;
-            console.log(result);
+            console.log(result[0].count);
             if(result.length>0)
             {
                 database.query(updtQuery,[name], (err,result)=>{
