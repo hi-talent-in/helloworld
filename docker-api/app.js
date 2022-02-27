@@ -6,10 +6,16 @@ const HOST = 'localhost';
 
 const app = express()
 
-app.get('/', (req, res) => {
-    res.send('hello_world!');
-});
+app.get('/hello_world', (req, res) => {
+    res.send('hello world!');
+})
 
-app.listen(PORT, HOST);
-    console.log(`Run api on http://${HOST}:${PORT}`);
+app.get('/', (req, res) => {
+    res.send('hello world! from base url');
+})
+
+app.listen(PORT, ()=>{
+    console.log(`Run api on port ${PORT}`);
+})
+    
 
