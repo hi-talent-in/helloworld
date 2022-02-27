@@ -73,7 +73,8 @@ Simple helloworld program variant to introduce various technology, the intention
 * If the app is hosted (After the Cloud Step(Kubernetes) is done), git action needs to be update so that any changes in repository update the hosted app automatically
 
 ### Cloud using VM
-* host your application into **cloud** (use heroku eg: http://helloradhika.heroku.com/api/helloworld, or AWS or Google VM, you can use docker-compose for hosting on VM), on vm u would need dokcer, docker-compose, git installed, then u can clone the repository and simply run docker-compose up
+* host your application into **cloud** (use AWS/Google or anyother VM), on vm u would need docker, docker-compose, git installed, then u can clone the repository and simply run docker-compose up
+* Please share the URL for the same, You may have to add firewall rule to expose your application to internet
 
 ### Front End
 * Create simple HTML page using any of the following **javascript**, **react**, **angular**. This page will simply take input from a text box(yourprofilename) and print Hello {yourprofilename} on the screen, it should be bold if it is **authenticated** request,for passing the authentication token you should use cokkies or local stogrege of broser, so presence of this token and absense of it will determine whether one is authenticated or not. once this step is done you should see the same at eg:http://helloradhika.heroku.com at the same time api can be accessed at http://helloradhika.heroku.com/api/helloworld, this should be seen as seperate project it's just using the API in the backend, if u have done 31 it should be esiaer to use google outh so you can skip the cookie part
