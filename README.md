@@ -1,5 +1,10 @@
-Simple helloworld program variant to introduce various technology, the intention is to familairize with concepts which are required to be a full stack developer.
+## how to run
+# docker-api
+docker build -t node-hello .
+docker run -d -p 8000:8000 node-hello
+here node-hello is tag name u could choose any
 
+<<<<<<< HEAD
 ## Level 1
 
 ### Git
@@ -107,3 +112,5 @@ You should be contributing towards a live open source project, you are applying 
 * https://github.com/Ada-Developers-Academy/ada-build
 * https://github.com/Ada-Developers-Academy/textbook-curriculum
 * https://github.com/kay-is/react-from-zero
+=======
+>>>>>>> 71a766233ce5c25f3db8a2c9de7b9d8d37052471
