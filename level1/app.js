@@ -1,10 +1,12 @@
-import { createServer } from 'http';
+const http = require('http');
 const hostname = '127.0.0.1';
 const port = 5500;
-import { parse } from 'url';
-const server = createServer((req, res) => {
-  const queryObject = parse(req.url,true).query;
+const url = require('url');
 
+
+const server = http.createServer((req, res) => {
+  console.log(req.url)
+  const queryObject = url.parse(req.url,true).query;
   console.log(queryObject.name);
   let name = queryObject.name
   res.statusCode = 200;
@@ -13,7 +15,7 @@ const server = createServer((req, res) => {
     res.end(`Hello ${name}`)
   }
   else
-    res.end('Hello  world!');
+      res.end('Hello  world!');
 });
 
 server.listen(port, hostname, () => {
