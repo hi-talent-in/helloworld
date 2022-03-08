@@ -1,4 +1,4 @@
-Simple helloworld program variant to introduce various technology, the intention is to familairize with concepts which are required to be a full stack developer.
+Simple  helloworld program variant to introduce various technology, the intention is to familairize with concepts which are required to be a full stack developer.
 
 ## Level 1
 
