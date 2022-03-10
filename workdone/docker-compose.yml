@@ -1,17 +1,21 @@
 version: "3.0"
 services:
   web:
-    build: 
-      dockerfile: dockerfile
+    build: .
     ports:
       - 3000:3000
     volumes:
       - .:/app
     depends_on:
-      - mysql_server
-    
-  mysql_server:
-    image: mysql:5.7
+      - localhost
+
+  test-redis: 
+    image: redis:alpine
+  
+  localhost:
+    image: mysql:5.7.37
     environment:
       - MYSQL_DATABASE=records
       - MYSQL_USER=root
+      - MYSQL_PASSWORD=''
+      - MYSQL_ROOT_PASSWORD=''
