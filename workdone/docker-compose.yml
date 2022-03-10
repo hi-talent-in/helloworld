@@ -1,6 +1,17 @@
 version: "3.0"
 services:
   web:
-    build: .
+    build: 
+      dockerfile: dockerfile
     ports:
-      - "3000:3000"
+      - 3000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - mysql_server
+    
+  mysql_server:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=records
+      - MYSQL_USER=root
