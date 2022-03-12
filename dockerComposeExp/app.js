@@ -37,9 +37,9 @@ app.get('/',(req,res)=>{
         
         database.query(checkQuery,[name], (err, result)=>{
             if(err) throw err;
-            console.log(result[0].count);
             if(result.length>0)
             {
+                console.log(result[0].count);
                 database.query(updtQuery,[name], (err,result)=>{
                     if(err) throw err;
                     else{
@@ -53,7 +53,7 @@ app.get('/',(req,res)=>{
                     if(err) throw err;
                     else
                     {
-                        console.log("Found new member and added to database");
+                        console.log("Found new member and added to database count = 1");
                     }
                 })
             }
