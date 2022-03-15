@@ -7,3 +7,4 @@ docker run -p 3306:3306 --name nodejs-mysql -e MYSQL_ROOT_PASSWORD=dbpass -e MYS
 docker run -d -p 8080:8080 <docker-image>
 docker rmi <your-image-id>
 docker rmi -f <your-image-id>
+docker exec -it <container id> redis-cli
