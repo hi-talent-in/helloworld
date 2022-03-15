@@ -7,16 +7,21 @@
   <title>My angular app</title>
 </head>
 <body>
-  <h1>Hello Angular</h1>
+  <h1>Login to Angular</h1>
   <br>
   <br>
   <form #simpleForm="ngForm" (ngSubmit)="getName(simpleForm.value)">
     <input type="text" ngModel name="user" placeholder="Enter your name" >
+    <br><br>
+    <input type="password" ngModel name="pass" placeholder="Enter your password" >
     <br><br>
     <button>submit</button>
   </form>  
 
   <br><br>
   <h1>{{Name}}</h1>
+  <br><br>
+  <button type="button" (click)="check()">Check your Authentication</button>
+
 </body>
 </html>
