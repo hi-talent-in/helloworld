@@ -1,4 +1,5 @@
-FROM node:alpine
+FROM node:17
+
 
 WORKDIR /apidocker
 
