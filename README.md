@@ -107,3 +107,6 @@ You should be contributing towards a live open source project, you are applying 
 * https://github.com/Ada-Developers-Academy/ada-build
 * https://github.com/Ada-Developers-Academy/textbook-curriculum
 * https://github.com/kay-is/react-from-zero
+* https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/
+* https://www.freecodecamp.org/news/learn-sql-free-relational-database-courses-for-beginners/
+* https://www.freecodecamp.org/learn
