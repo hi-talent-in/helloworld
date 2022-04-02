@@ -1,0 +1,17 @@
+{
+  "name": "tester",
+  "version": "1.0.0",
+  "description": "redis with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashok Khandhar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.4"
+  }
+}
