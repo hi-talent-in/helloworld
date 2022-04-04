@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function hello(name){
+                return "Hello " + (name || "world") + "!";
+
+            }
+            function press(){
+                var input = document.getElementById("input").value;
+                var out = hello(input);
+                document.getElementById("output").innerHTML = out;
+
+            }
+        </script>
+    </head>
+    <body>
+        <p>
+        Name: <input id = "input">
+        <button onclick="press()">Greet</button>
+    </p>
+    <p id = "output"></p>
+    </body>
+</html>
