@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  sqlapp:
+    image: sqlapp
+    build:  .   
+    command: ["uvicorn", "main:app","--host=0.0.0.0","--port=3000"]
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    environment:
+      - SQLALCHEMY_DATABASE_URL='mysql+pymysql://root:@localhost/name_argument'
+    depends_on:
+      - database
+
+
+  database:
+    image: mysql:latest
+    volumes:
+      - database:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=name_argument
+      - MYSQL_USER=root
+      - MYSQL_Host=localhost
+      - MYSQL_ROOT_PASSWORD=''
+   
+    restart: always
+
+volumes:
+  database:
+
