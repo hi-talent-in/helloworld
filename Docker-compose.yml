@@ -1,0 +1,25 @@
+version: "3.8"
+
+services: 
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - 7000:7000
+    volumes: 
+      - .:/app
+    
+    depends_on: 
+      - postgresql_database
+  
+  postgresql_database:
+    image: postgres:latest
+    
+    environment: 
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=komal
+      - POSTGRES_DB=student
+    ports:
+     - 5432:5432
+      
